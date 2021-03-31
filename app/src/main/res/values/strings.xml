@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">VolleyApplication</string>
+    <string name="new_response_queue">NEW RESPONSE QUEUE</string>
+</resources>
