@@ -8,24 +8,14 @@
     android:background="@color/teal_200"
     tools:context=".MainActivity">
 
-  <TextView
-      android:id="@+id/textViewId"
-      android:textColor="@color/black"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="20dp"
-      android:fontFamily="sans-serif-condensed-light"
-      android:text="Hello World!"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
   <TextView
-      android:id="@+id/textView"
+      android:id="@+id/titleStringRequest"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="80dp"
-      android:text="@string/new_response_queue"
+      android:text="@string/string_request"
+      android:layout_marginTop="50dp"
 
       android:textColor="@color/black"
       android:textStyle="bold"
@@ -37,5 +27,83 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/stringRequest"
+      android:textColor="@color/black"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="8dp"
+      android:fontFamily="sans-serif-condensed-light"
+      android:text="@string/string_request"
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/titleStringRequest"/>
+
+
+  <TextView
+      android:id="@+id/titleJsonArrayRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="@string/json_array_request"
+
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:fontFamily="cursive"
+      android:textSize="22sp"
+      android:letterSpacing="0.1"
+
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/stringRequest"
+      app:layout_constraintStart_toStartOf="parent"/>
+
+  <TextView
+      android:id="@+id/jsonArrayRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="8dp"
+      android:text="@string/json_array_request"
+      android:fontFamily="sans-serif-condensed-light"
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/titleJsonArrayRequest" />
+
+  <TextView
+    android:id="@+id/titleJsonObjectRequest"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/json_object_request"
+    android:layout_margin="20dp"
+
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:fontFamily="cursive"
+    android:textSize="22sp"
+    android:letterSpacing="0.1"
+
+    app:layout_constraintTop_toBottomOf="@id/jsonArrayRequest"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    />
+
+  <TextView
+    android:id="@+id/jsonObjectRequest"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp"
+    android:text="@string/json_object_request"
+    android:fontFamily="sans-serif-condensed-light"
+
+    app:layout_constraintTop_toBottomOf="@+id/titleJsonObjectRequest"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

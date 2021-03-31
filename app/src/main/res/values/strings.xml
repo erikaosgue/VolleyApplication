@@ -1,4 +1,6 @@
 <resources>
   <string name="app_name">VolleyApplication</string>
-    <string name="new_response_queue">NEW RESPONSE QUEUE</string>
+  <string name="string_request">STRING REQUEST</string>
+  <string name="json_array_request">JSON ARRAY REQUEST</string>
+  <string name="json_object_request">JSON OBJECT REQUEST</string>
 </resources>
